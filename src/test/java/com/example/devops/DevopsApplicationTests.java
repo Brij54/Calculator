@@ -39,7 +39,7 @@ class DevopsApplicationTests {
     @Test
     public void testNaturalLog(){
         double result = DevopsApplication.log(16);
-        Assertions.assertEquals(2.772588722,result);
+        Assertions.assertEquals(2.772588722239781,result);
     }
 
     @Test
