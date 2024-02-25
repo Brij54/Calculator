@@ -52,7 +52,11 @@ class DevopsApplicationTests {
         double result = DevopsApplication.factorial(5);
         Assertions.assertEquals(120,result);
     }
-
+    @Test
+    public void testPower() {
+        double result = DevopsApplication.power(6,2);
+        Assertions.assertEquals(36,result);
+    }
     @Test
     public void testNegSubtraction() {
         double result = DevopsApplication.subtraction(200000,233326);

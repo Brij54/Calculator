@@ -70,6 +70,12 @@ public class DevopsApplication {
                 num1 = scanner.nextDouble();
                 System.out.println("Result: " + factorial(num1));
                 break;
+            case 8:
+                System.out.print("Enter first number: ");
+                num1 = scanner.nextDouble();
+                System.out.print("Enter second number: ");
+                num2 = scanner.nextDouble();
+                System.out.println("Result:" + power(num1, num2));
             default:
                 System.out.println("Invalid operation");
         }
@@ -124,5 +130,9 @@ public class DevopsApplication {
         } else {
             throw new IllegalArgumentException("Factorial of non-positive integer");
         }
+    }
+
+    public static double power(double num1, double num2) {
+        return Math.pow(num1,num2);
     }
 }
