@@ -19,6 +19,7 @@ public class DevopsApplication {
         System.out.println("5. Natural Logarithm (ln)");
         System.out.println("6. Square Root (√)");
         System.out.println("7. Factorial (!)");
+        System.out.println("8. Power function ");
         System.out.print("Enter your choice: ");
         int operation = scanner.nextInt();
 
