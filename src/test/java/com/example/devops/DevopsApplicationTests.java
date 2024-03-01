@@ -19,8 +19,8 @@ class DevopsApplicationTests {
 
     @Test
     public void testSubtraction() {
-        double result = DevopsApplication.subtraction(7,4);
-        Assertions.assertEquals(3,result);
+        double result = DevopsApplication.subtraction(8,4);
+        Assertions.assertEquals(4,result);
 
     }
     @Test
