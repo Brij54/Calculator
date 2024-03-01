@@ -32,8 +32,8 @@ class DevopsApplicationTests {
 
     @Test
     public void testDivision(){
-        double result = DevopsApplication.division(20,4);
-        Assertions.assertEquals(5,result);
+        double result = DevopsApplication.division(16,4);
+        Assertions.assertEquals(4,result);
     }
 
     @Test
