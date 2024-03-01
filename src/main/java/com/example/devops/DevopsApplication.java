@@ -77,6 +77,7 @@ public class DevopsApplication {
                 System.out.print("Enter second number: ");
                 num2 = scanner.nextDouble();
                 System.out.println("Result:" + power(num1, num2));
+                break;
             default:
                 System.out.println("Invalid operation");
         }
