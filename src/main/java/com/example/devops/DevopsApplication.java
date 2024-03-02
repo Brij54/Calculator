@@ -45,6 +45,7 @@ public class DevopsApplication {
                 num2 = scanner.nextDouble();
                 System.out.println("Result: " + multiplication(num1, num2));
                 break;
+                //hello
             case 4:
                 System.out.print("Enter first number: ");
                 num1 = scanner.nextDouble();
